@@ -9,7 +9,7 @@ Clone the repository
 # Installing Dependencies
 To install the dependencies
 
-  npm install
+    npm install
 
 # Start Server
 To start the local server try
