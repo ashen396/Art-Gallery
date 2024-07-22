@@ -4,7 +4,7 @@ A web project to display the portfolio of an artist with an art gallery and a tw
 # Starting With Source Code
 Clone the repository
 
-  gh repo clone ashen396/Art-Gallery
+    gh repo clone ashen396/Art-Gallery
 
 # Installing Dependencies
 To install the dependencies
@@ -14,12 +14,12 @@ To install the dependencies
 # Start Server
 To start the local server try
 
-  npm start
+    npm start
 
 # Live Preview
 Open the url
 
-  https://art-gallery-gray.vercel.app/
+    https://art-gallery-gray.vercel.app/
 
 # Introduction
 ## Home
