@@ -1,0 +1,43 @@
+/* Calendar */
+body{
+    padding: 20px;
+}
+
+div h1{
+    position: relative;
+    margin-left: 200px;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 10;
+}
+
+#calendar thead>tr>th{
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+#calendar{
+    position: relative;
+    float: right;
+    margin-top: 220px;
+    margin-right: 100px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#calendar thead>tr>th:nth-child(6), th:nth-child(7){
+    color: red;
+}
+
+#calendar tbody{
+    text-align: center;
+}
+
+#calendar tbody>td{
+    font-family: Roboto;
+    font-family: 100;
+    padding: 10px;
+}

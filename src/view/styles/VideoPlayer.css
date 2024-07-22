@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#videoplayer {
+    display: block;
+    object-fit: fill;
+    height: 100%;
+    max-height: 720px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+video {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Open+Sans&display=swap');
+@font-face {
+  font-family: Granite;
+  src: url('../../fonts/Granite-Bgvl.ttf');
+}
+
+#portfolio-background {
+  position: absolute;
+  top: 90px;
+  left: 15%;
+  width: 1040px;
+  height: 300px;
+  z-index: 4;
+  border-radius: 40px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.5s;
+}
+
+
+#userimg {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  background-image: url("https://media.altphotos.com/cache/images/2018/01/29/03/752/black-and-white-woman-portrait.jpg");
+  background-size: 250px;
+  border-radius: 200px;
+  margin-top: 25px;
+  right: 0px;
+  margin-right: 25px;
+  box-shadow: inset 10px 10px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+#userdetails {
+  margin-top: 70px;
+  width: 80%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#userdetails>#user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+}
+
+#userdetails>#user>h1 {
+  position: absolute;
+  color: white;
+  font-size: 45px;
+  font-family: Inclusive Sans;
+  justify-self: center;
+  margin-left: 150px;
+}
+
+#userdetails>#user>h2 {
+  position: absolute;
+  color: white;
+  float: right;
+  font-size: 45px;
+  font-family: Granite;
+  padding: 20px;
+  background-image: linear-gradient(red, yellow);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#userdetails>#user>h3 {
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 220px;
+  margin-left: 318px;
+}
+
+#userdetails>#user>h3:hover {
+  cursor: pointer;
+}
+
+#userdetails>#user>#bio {
+  z-index: 1;
+}
+
+#userdetails>#user>#bio-text {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 200px;
+  margin-left: -100px;
+  width: 820px;
+  height: 0px;
+  overflow-y: scroll;
+  opacity: 0;
+  transition: all 0.5s;
+  z-index: 0;
+}
+
+#userdetails>#user>#bio-text>text {
+  color: white;
+}

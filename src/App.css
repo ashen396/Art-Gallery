@@ -1,0 +1,9 @@
+@font-face {
+  font-family: NeonLights;
+  src: url('fonts/NeonLights-22d.ttf');
+}
+
+body{
+  background-color: white;
+  overscroll-behavior: none;
+}

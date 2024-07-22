@@ -1,0 +1,162 @@
+#gallery {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../images/Gallery_Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#imageSelector {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50px;
+  top: 310px;
+  right: 250px;
+  border: 5px solid white;
+  opacity: 0.8;
+}
+
+#imageFirstOverlay {
+  position: absolute;
+  top: 224px;
+  right: 80px;
+  width: 410px;
+  height: 225px;
+  transform: perspective(340px) rotateX(0deg) rotateY(-10deg) rotateZ(1.5deg);
+  background-image: url("https://media.mutualart.com/Images/2022_05/21/21/213644477/f012cbda-955c-4589-ac98-7e69f0330ed3.Jpeg?w=768");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  filter: brightness(0.5);
+  transition: all 0.3s;
+}
+
+#imageFirstOverlay:hover {
+  filter: brightness(1);
+}
+
+#imageSecondOverlay {
+  position: absolute;
+  top: 232px;
+  right: 480px;
+  width: 155px;
+  height: 180px;
+  transform: perspective(340px) rotateX(0deg) rotateY(-10deg) rotateZ(1.5deg);
+  background-image: url("https://cdn.shopify.com/s/files/1/0047/4231/6066/files/mona_liza_800x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.5);
+  opacity: 0.9;
+  transition: all 0.3s;
+}
+
+#imageSecondOverlay:hover {
+  filter: brightness(1);
+}
+
+#imageThirdOverlay {
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  width: 260px;
+  height: 210px;
+  transform: perspective(340px) rotateX(0deg) rotateY(14deg) rotateZ(0deg);
+  background-image: url("https://www.thehistoryofart.org/The%20History%20of%20Art%20-%20Great%20Wave%20of%20Kanagawa%20by%20Hokusai.jpg?ezimgfmt=ngcb14/notWebP");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.5);
+  transition: all 0.3s;
+}
+
+#imageThirdOverlay:hover {
+  filter: brightness(1);
+}
+
+#imageFourthOverlay {
+  position: absolute;
+  top: 220px;
+  left: 350px;
+  width: 120px;
+  height: 180px;
+  transform: perspective(340px) rotateX(0deg) rotateY(24deg) rotateZ(-1deg);
+  background-image: url("https://www.singulart.com/images/artworks/v2/cropped/4297/main/base/1804568_a7261196b494779afc3615205dcc4a46.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.5);
+  transition: all 0.3s;
+}
+
+#imageFourthOverlay:hover {
+  filter: brightness(1);
+}
+
+#imageFifthOverlay {
+  position: absolute;
+  top: 230px;
+  left: 465px;
+  width: 90px;
+  height: 155px;
+  transform: perspective(340px) rotateX(0deg) rotateY(26deg) rotateZ(0deg);
+  background-image: url("https://news.artnet.com/app/news-upload/2014/07/Johannes_Vermeer_1632-1675_-_The_Girl_With_The_Pearl_Earring_1665-e1435072137333.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.5);
+  transition: all 0.3s;
+}
+
+#imageFifthOverlay:hover {
+  filter: brightness(1);
+}
+
+#infoOverlay {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 1200px;
+  height: 600px;
+  border-radius: 40px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 1;
+  visibility: hidden;
+  /* filter: brightness(0.7); */
+}
+
+#infoCloseButton{
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  font-size: 40px;
+  cursor: default;
+  z-index: inherit;
+}
+
+#infoHeading{
+  font-size: 40px;
+  font-family: Granite;
+  color: rgb(80,80,80);
+}
+
+#infoDescriptionContainer{
+  width: 1000px;
+  height: 400px;
+  max-height: 400px;
+  max-width: 1000px;
+  margin-left: 80px;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 20px;
+  overflow: scroll;
+}
+
+#infoDescriptionContainer > text{
+  font-size: 18px;
+  color: white;
+  white-space: pre-line;
+}
