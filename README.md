@@ -27,12 +27,12 @@ A repetitive list of videos being played in the background gives a unique idenit
 ![ezgif-2-df5ed9e159](https://github.com/user-attachments/assets/a4d05232-cfcb-478e-8895-faba3db9657a)
 
 User Information
-![Screenshot 2024-07-22 at 07 49 18](https://github.com/user-attachments/assets/1dae9151-ca59-4365-b69f-3c4eff916362)
+![Screenshot 2024-07-22 at 07 49 18](https://github.com/user-attachments/assets/74039493-a7d1-41b3-bbe3-53527ad90cfb)
+
 
 Subtle transition to the user information when scrolling down
-https://github.com/user-attachments/assets/3ba1519d-4951-41ba-a4d0-116c40b46d43
+![ezgif-7-a56fbc1c49](https://github.com/user-attachments/assets/9b88487f-e368-4f30-802e-e5ad752bc4cb)
+
 
 Art Information
-https://github.com/user-attachments/assets/c2ffbbee-63f0-458f-a648-3d834c9bf6a1
-
-
+![ezgif-7-609b8f0ae3](https://github.com/user-attachments/assets/9b77cf2f-30b9-4b28-8817-c37e9b8b9fc7)
